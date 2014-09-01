@@ -45,21 +45,4 @@ describe( 'validate.io-less-than', function tests() {
 		}
 	});
 
-	it( 'should negatively validate for a non-numeric comparator', function test() {
-		var values = [
-				true,
-				[],
-				'5',
-				function(){},
-				null,
-				NaN,
-				{'foo':'bar'},
-				undefined
-			];
-
-		for ( var i = 0; i < values.length; i++ ) {
-			assert.ok( !isLessThan( 1,  values[i] ) );
-		}
-	});
-
 });

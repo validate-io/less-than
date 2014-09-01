@@ -39,7 +39,7 @@ The `value` argument is the value to be validated and the `comparator` argument 
 
 ## Notes
 
-This method validates that both the `comparator` and the `value` are of type `number` before making the comparison. For non-numeric arguments, the method returns `false`.
+This method validates that the `value` is of type `number` before making the comparison. For non-numeric values, the method returns `false`.
 
 
 ## Examples
