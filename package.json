@@ -29,7 +29,11 @@
     "validator",
     "valid",
     "comparison",
-    "less than"
+    "less than",
+    "type",
+    "check",
+    "is",
+    "islessthan"
   ],
   "bugs": {
     "url": "https://github.com/validate-io/less-than/issues"
