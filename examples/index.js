@@ -1,7 +1,9 @@
+'use strict';
+
 var isLessThan = require( './../lib' );
 
 console.log( isLessThan( 1, 2 ) );
-// Returns true
+// returns true
 
 console.log( isLessThan( 1, 0 ) );
-// Returns false
+// returns false
